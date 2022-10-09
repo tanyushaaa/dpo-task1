@@ -38,4 +38,6 @@ def main():
     print('Maximum time: {:.3f} seconds'.format(max(time_list) / 1000000))
     print('Average time: {:.3f} seconds'.format(sum(time_list) / len(time_list) / 1000000))
 
-main()
+
+if __name__ == "__main__":
+    main()
