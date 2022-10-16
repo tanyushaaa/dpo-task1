@@ -14,10 +14,17 @@ def time_calc(time_list):
     return decorator
 
 
+<<<<<<< HEAD
 def fill_array(size=1000000, start=0, end=999):
     random_list = []
     for i in range(size):
         random_list.append(random.randint(start, end))
+=======
+def fill_array():
+    random_list = []
+    for i in range(1000000):
+        random_list.append(random.randint(0, 999))
+>>>>>>> 29e8778e591e1b0e5eaf5549ccb39a1a8f4fbcdb
     return random_list
 
 
